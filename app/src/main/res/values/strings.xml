@@ -4,8 +4,8 @@
     <string name="app_name">Redditget</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="item_missed_thumbnail">It doesn\'t have a thumbnail to show.</string>
-    <string name="item_no_more_items_to_load">There are no more items.</string>
+    <string name="item_missed_thumbnail">It doesn\'t have a link to show</string>
+    <string name="item_no_more_items_to_load">There are no more items</string>
     <string name="adapter_comments">comments</string>
     <string name="adapter_writted_by">by</string>
 

@@ -147,7 +147,7 @@ public class ItemFragment extends ListFragment {
     public void onListItemClick(ListView l, View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
         Child item = (Child) this.getListAdapter().getItem(position);
-        String picUrl = item.getData().getThumbnail();
+        String picUrl = item.getData().getUrl();
 
         if (Utilities.isValidUrl(picUrl)) {
             Intent browserIntent = new Intent(
